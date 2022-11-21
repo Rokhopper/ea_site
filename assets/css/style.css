@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+}
+
+.nav_item{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.nav_item:hover{
+    color: red;
+    border-bottom: 3px solid currentColor;
+}
+.logo{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.image{
+    margin: 0;
+    width: 100%;
+    height: 90%;
+}
+
+.image_content{
+    text-align: center;
+    background: url("https://media.contentapi.ea.com/content/dam/eacom/common/ea-library-header-16x9-xl.png.adapt.1920w.png");
+    margin-top: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.image_game{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 34px;
+}
+
+.text_title_1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ececec;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 1%;
+}
+
+.text_title_2{
+    font-family: 'Roboto', sans-serif;
+    color: #ececec;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 1%;
+}
+
+.text_bellow_tittle{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+    background: #ececec;
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.catalog_container{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.genre{
+    background: url("../img/button.png");
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    color: aliceblue;
+    height: 183px;
+    width: 326px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.genre:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.games{
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    color: aliceblue;
+    height: 300px;
+    width: 300px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.games h3 {
+    position: absolute;
+    left: 0;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+    font-size: medium;
+    bottom: 40%;
+    width: 100%;
+}
+
+.games:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.banner{
+    background: url("https://media.contentapi.ea.com/content/dam/eacom/subscription/ea-play-platform-landing-page/images/2021/01/hero-medium-console-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 1%;
+    padding-left: 20%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    color: aliceblue;
+}
+
+.gamepass{
+    margin-top: 1%;
+    height: 42px;
+    border: none;
+    background: #ff4747;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+.gamepass:hover{
+    background: rgba(0,0,0,0);
+    color: #ff4747;
+    box-shadow: inset 0 0 0 3px #ff4747;
+}
+
+.etc{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    color: black;
+}
+
+.item_etc{
+    text-align: left;
+    padding-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.item_etc:hover{
+    color: red;
+}
+
+.follow{
+    padding-left: 25%;
+    text-align: right;
+}
+
+.link{
+    padding-top: 1%;
+    padding-left: 71.9%;
+    padding-bottom: 2%;
+}
+
+.link_item{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.link_item:hover{
+    color: dodgerblue;
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background: #ececec;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.footer_logo{
+    padding-left: 20%;
+}
+
+.footer_item_logo{
+    text-decoration: none;
+    padding-left: 2%;
+    color: black;
+}
+
+.footer_item{
+    text-decoration: none;
+    padding-left: 25.3%;
+    color: black;
+}
+
+
+
+
+
+
+
